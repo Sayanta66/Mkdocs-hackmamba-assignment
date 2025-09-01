@@ -27,7 +27,8 @@ To authenticate with Protekt, you first must access the Protekt dashboard by **s
 
 ## What's Next?
 
-- [Quickstart: Lightning fast integration](./Quickstart.md)  
+- [Quickstart: Lightning fast integration](./Quickstart.md)
+- [First time handling authentication? Check out authentication concepts in layman language](../Concepts/)
 - [Configure Email Login Authentication](../Authentication/Standard/Email.md)
 - [Explore the API Reference](../Reference/API%20Reference/)
 - [All the tutorials to learn more about Protekt](../Tutorials/)
