@@ -70,6 +70,8 @@ nav:
         - OIDC: Authentication/CustomIDPs/OIDC.md
         - OAuth2: Authentication/CustomIDPs/OAuth2.md
         - Okta: Authentication/CustomIDPs/Okta.md
+        - Google Workspace: Authentication/CustomIDPs/GoogleWorkspace.md
+        - PingIdentity: Authentication/CustomIDPs/PingIdentity.md
   - Single Sign-On (SSO):
       - Web SSO: SSO/WebSSO.md
       - Mobile SSO: SSO/MobileSSO.md
