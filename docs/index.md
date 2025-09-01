@@ -1,6 +1,6 @@
 # Overview
 
-Welcome to the Protekt Documentation. This page will give you a high level overview on how to use this documentation.
+Welcome to the Protekt Documentation. This page will give you a high level overview on how to use and get the best out of this documentation.
 
 ## Start with
 
