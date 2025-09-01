@@ -13,7 +13,7 @@ Welcome to the Protekt Documentation. This page will give you a high level overv
 - [Authentication](./Authentication/Standard/Email.md): A quick-take on the different authentication methods provided by Protekt.
 - [Single Sign-On (SSO)](./Single%20Sign-On%20(SSO)/): A glimpse on the seamless single sign-on capability into your application or third-party applications.
 - [IAM](./IAM/): Centralize Identity and Access Management across multiple business entities.
-- [Multifactor Authentication (MFA)](./Multifactor%20Authentication%20(MFA)/): Strengthen with your authentication with Protekt provided MFA.
+- [Multi Factor Authentication (MFA)](./Multi%20Factor%20Authentication%20(MFA)/): Strengthen with your authentication with Protekt provided MFA.
 - [Security](./Security/): Understand the various security features offered by Protekt.
 - [Branding and Customization](./Branding%20and%20Customization/): Improved user interaction and streamlined outreach with customized email/sms template, configurable Email/SMS providers, hosted pages, etc.
 

@@ -244,4 +244,4 @@ Congratulations! You have made it this far. This means that you have successfull
 To learn more about what you can do with Protekt, check out the below features and resources:
 
 * [Self-Host Protekt](../../Deployment/)
-* [Multifactor Authentication](../../Multifactor%20Authentication%20(MFA)/)
+* [Multifactor Authentication](../../Multi%20Factor%20Authentication%20(MFA)/)

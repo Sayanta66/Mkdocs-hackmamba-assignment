@@ -78,7 +78,7 @@ nav:
       - Groups: IAM/Groups.md
       - Roles: IAM/Roles.md
       - Policies: IAM/Policies.md
-  - Multifactor Authentication (MFA):
+  - Multi Factor Authentication (MFA):
       - TOTP: MFA/TOTP.md
       - SMS OTP: MFA/SMSOTP.md
       - Push Notifications: MFA/PushNotifications.md
