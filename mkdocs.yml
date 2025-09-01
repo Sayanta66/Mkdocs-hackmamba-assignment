@@ -1,0 +1,133 @@
+site_name: Protekt Documentation
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  features:
+    - navigation.footer
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: Getting Started/index.md
+      - Configuration: Getting Started/Configuration.md
+      - Quickstart: Getting Started/Quickstart.md
+      - Integrations:
+        - Next.js: Integrations/Nextjs.md
+        - React: Integrations/React.md
+        - Vue.js: Integrations/Vuejs.md
+        - Angular: Integrations/Angular.md
+        - Flutter: Integrations/Flutter.md
+        - iOS: Integrations/iOS.md
+        - Android: Integrations/Android.md
+        - AWS Lambda: Integrations/AWS.md
+        - Hasura: Integrations/Hasura.md
+        - Vercel: Integrations/Vercel.md
+        - Netlify: Integrations/Netlify.md
+  - Concepts:
+      - Overview: Concepts/Overview.md
+      - Architecture: Concepts/Architecture.md
+      - Authentication Flow: Concepts/Authentication-Flow.md   
+  - Authentication:
+      - Standard:
+        - Email Login: Authentication/Standard/Email.md
+        - Phone Login: Authentication/Standard/Phone.md
+        - Username Login: Authentication/Standard/Username.md
+      - Passwordless:
+        - Email Login: Authentication/Passwordless/PasswordlessEmail.md
+        - Phone Login: Authentication/Passwordless/PasswordlessPhone.md
+        - Magic Links: Authentication/Passwordless/MagicLinks.md
+      - Social:
+        - Social Login: 
+          - Google: Authentication/Social/SocialLogin/Google.md
+          - Facebook: Authentication/Social/SocialLogin/Facebook.md
+          - X: Authentication/Social/SocialLogin/X.md
+          - LinkedIn: Authentication/Social/SocialLogin/LinkedIn.md
+          - GitHub: Authentication/Social/SocialLogin/GitHub.md
+          - Apple: Authentication/Social/SocialLogin/Apple.md
+          - Microsoft: Authentication/Social/SocialLogin/Microsoft.md
+      - Custom IDPs:
+        - Overview: Authentication/CustomIDPs/Overview.md
+        - SAML: Authentication/CustomIDPs/SAML.md
+        - OIDC: Authentication/CustomIDPs/OIDC.md
+        - OAuth2: Authentication/CustomIDPs/OAuth2.md
+        - Okta: Authentication/CustomIDPs/Okta.md
+  - Single Sign-On (SSO):
+      - Web SSO: SSO/WebSSO.md
+      - Mobile SSO: SSO/MobileSSO.md
+  - IAM:
+      - Users: IAM/Users.md
+      - Groups: IAM/Groups.md
+      - Roles: IAM/Roles.md
+      - Policies: IAM/Policies.md
+  - Multifactor Authentication (MFA):
+      - TOTP: MFA/TOTP.md
+      - SMS OTP: MFA/SMSOTP.md
+      - Push Notifications: MFA/PushNotifications.md
+  - Branding and Customization:
+      - Custom Domains: Branding/CustomDomains.md
+      - Theming: Branding/Theming.md
+      - Email Templates: Branding/EmailTemplates.md
+  - Security:
+      - Audit Logs: Security/AuditLogs.md
+      - Rate Limiting: Security/RateLimiting.md
+      - IP Whitelisting: Security/IPWhitelisting.md
+  - Deployment:
+      - Self-Hosted: Deployment/OnPremises.md
+  - References:
+      - API Reference: References/APIReference.md
+      - SDK Reference: 
+        - Frontend SDKs: References/SDK Reference/FrontendSDKs.md
+        - Backend SDKs: References/SDK Reference/BackendSDKs.md
+  - Tutorials:
+      - User Registration and Login: Tutorials/UserRegistrationAndLogin.md
+      - Implementing MFA: Tutorials/ImplementingMFA.md
+      - Social Login Integration: Tutorials/SocialLoginIntegration.md
+      - Customizing the Login Page: Tutorials/CustomizingLoginPage.md
+      - Managing Users and Roles: Tutorials/ManagingUsersAndRoles.md
+      - Setting Up SSO: Tutorials/SettingUpSSO.md
+      - Branding Your Auth System: Tutorials/BrandingYourAuthSystem.md
+      - Monitoring and Auditing: Tutorials/MonitoringAndAuditing.md
+  - Troubleshooting:
+      - Common Issues: Troubleshooting/CommonIssues.md
+      - FAQ: Troubleshooting/FAQ.md
+      - Support: Troubleshooting/Support.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: Copyright &copy; 2025 Protekt Inc. All rights reserved.
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@Protekt
+    - icon: simple/github
+      link: https://github.com/Protektdev
